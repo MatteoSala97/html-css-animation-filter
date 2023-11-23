@@ -125,15 +125,57 @@
 /* Solution 11 */
 
 .ex-11-icon:hover{
-    animation: NotQuiteSpin 2s infinite ease-in-out;
+    animation: not-quite-spin 2s infinite ease-in-out;
 }
 
-@keyframes NotQuiteSpin {
+@keyframes not-quite-spin {
     0% {
-        transform:rotate (0deg);
+        transform: rotate(0deg);
     }
     75%{
         transform: rotate(270deg);
     }
 }
 
+/* Solution 12 */
+
+.ex-12-top-white, .ex-12-bottom-white{
+    border: 1px solid red;
+    animation: spazio-bianco 2s infinite ease-in-out;
+}
+
+@keyframes spazio-bianco {
+    0% {
+         transform: translateX(0);
+    }
+    60%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+/* Solution 13   sorry i give up */
+
+/* .ex-13-top-white, .ex-13-bottom-white{
+    animation: spazio-bianco 2s infinite ease-in-out;
+    border: 1px solid red;
+}
+
+@keyframes spazio-bianco {
+    0% {
+        transform: translateX(0);
+    }
+    60%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} */
